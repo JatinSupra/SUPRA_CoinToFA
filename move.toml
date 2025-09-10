@@ -1,0 +1,9 @@
+[package]
+name = "CointoFA"
+version = "1.0.0"
+
+[addresses]
+your_addr = "YOUR_ADDRESS"
+
+[dependencies]
+SupraFramework = { git = "https://github.com/Entropy-Foundation/aptos-core.git", subdir = "aptos-move/framework/supra-framework", rev = "dev" }
