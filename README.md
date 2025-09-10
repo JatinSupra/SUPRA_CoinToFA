@@ -21,24 +21,24 @@ A Move module for converting SUPRA Coin standard tokens to SUPRA Fungible Asset 
 
 ### RUN Functions
 
-#### `convert_coin_to_fa(amount)`
+- `convert_coin_to_fa(amount)`
 Converts a specific amount of SUPRA coins to fungible assets while keeping your coin store.
 
-#### `migrate_account_to_fa()`
+- `migrate_account_to_fa()`
 Migrates your entire SUPRA coin balance to fungible assets and destroys your coin store completely.
 
-#### `convert_all_coins_to_fa()`
+- `convert_all_coins_to_fa()`
 Converts all your SUPRA coins to fungible assets without destroying the coin store.
 
-#### `batch_convert_coins_to_fa(chunk_size, max_chunks)`
+- `batch_convert_coins_to_fa(chunk_size, max_chunks)`
 Converts coins to FA in batches. Useful for large amounts.
 
 ### VIEW Functions
 
-#### `get_total_supra_balance(address)`
+- `get_total_supra_balance(address)`
 Returns the total SUPRA balance (coins + fungible assets combined).
 
-#### `is_account_registered(address)`
+- `is_account_registered(address)`
 Checks if an account is registered to receive SUPRA tokens.
 
 ## Conversion Strategy Guide
